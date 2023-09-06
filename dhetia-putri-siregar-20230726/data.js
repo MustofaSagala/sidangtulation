@@ -43,20 +43,20 @@ prodi.textContent = 'Prodi Akuntansi Syariah';
 
 // Foto Cover dan Header
 fotoCoverHeader.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../dhetia-putri-siregar-20230726/tia1.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Foto bingkai
-fotoBingkai.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiaraa.jpeg)';
+fotoBingkai.style.backgroundImage = 'url(../dhetia-putri-siregar-20230726/tia0.jpg)';
 fotoBingkai.style.backgroundPosition = 'center';
 fotoBingkai.style.backgroundSize = 'cover';
 
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara2.jpeg)';
+	element.style.backgroundImage = 'url(../dhetia-putri-siregar-20230726/tia3.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -72,7 +72,7 @@ teksSempro.textContent = 'Alhamdulillah bisa ngelewati 1 tahap';
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara1.jpeg)';
+	element.style.backgroundImage = 'url(../dhetia-putri-siregar-20230726/tia2.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -88,7 +88,7 @@ teksKompri.textContent = 'Alhamdulillah lulus langsung';
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../dhetia-putri-siregar-20230726/tiara3.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
