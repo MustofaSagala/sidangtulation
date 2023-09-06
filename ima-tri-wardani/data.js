@@ -72,7 +72,7 @@ teksSempro.textContent = 'Kirain semenegangkan itu eh ternyata biasa aja hehe';
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../vidya-chalista/ima2.jpg)';
+	element.style.backgroundImage = 'url(../ima-tri-wardani/ima2.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -88,7 +88,7 @@ teksKompri.textContent = 'Pertanyaan diluar dugaan bmkg, apa yang dibaca apa yg 
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../vidya-chalista/ima0.jpg)';
+	element.style.backgroundImage = 'url(../ima-tri-wardani/ima0.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
