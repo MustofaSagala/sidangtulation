@@ -21,66 +21,66 @@ var tanggalSidang = document.getElementById('tanggal-sidang');
 
 // Program Studi
 sidangApa.forEach(function(element) {
-	element.textContent = "Selamat Sidang Munaqasyah";
+	element.textContent = "Selamat Sidang Kolokium";
 });
 
 // Nama Panggilan
-namaCover.textContent = 'Halo, Dita';
+namaCover.textContent = 'Halo, Ima';
 
 // Nama Lengkap
 namaLengkap.forEach(function(element) {
-	element.textContent = "Vidya Chalista";
+	element.textContent = "Ima Tri Wardani";
 });
 
 // Nama Gelar
 namaGelar.forEach(function(element) {
-	element.textContent = "S.Akun";
+	element.textContent = "S.E";
 });
 
 // Program Studi
-prodi.textContent = 'Prodi Akuntansi Syariah';
+prodi.textContent = 'Prodi Ekonomi Islam';
 
 
 // Foto Cover dan Header
 fotoCoverHeader.forEach(function(element) {
-	element.style.backgroundImage = 'url(../vidya-chalista/dita0.jpg)';
+	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima0.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Foto bingkai
-fotoBingkai.style.backgroundImage = 'url(../vidya-chalista/dita5.jpg)';
+fotoBingkai.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima00.jpg)';
 fotoBingkai.style.backgroundPosition = 'center';
 fotoBingkai.style.backgroundSize = 'cover';
 
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../vidya-chalista/dita2.jpg)';
+	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima1.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Tanggal Sempro
-tanggalSempro.textContent = '27 Februari 2023';
+tanggalSempro.textContent = '17 Maret 2023';
 
 // Teks Sempro
-teksSempro.textContent = 'Pas sempro kemarin itu bener2 bikin deg degan parah karna kan itu ditanya tanyain kayak wawancara huuhu';
+teksSempro.textContent = 'Kirain semenegangkan itu eh ternyata biasa aja hehe';
 
 
 
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../vidya-chalista/dita1.jpg)';
+	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima2.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Tanggal Kompri
-tanggalKompri.textContent = '31 Maret 2023';
+tanggalKompri.textContent = '31 Mei 2023';
 // Teks Kompri
-teksKompri.textContent = 'Kompri itu part paling nakutin dari semua rangkaian pencapaian gelar sarjana. Tapi alhamdulillah sudah berlalu hehe';
+teksKompri.textContent = 'Pertanyaan diluar dugaan bmkg, apa yang dibaca apa yg ditanya hemm';
 
 
 
@@ -88,16 +88,16 @@ teksKompri.textContent = 'Kompri itu part paling nakutin dari semua rangkaian pe
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../vidya-chalista/dita3.jpg)';
+	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima0.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Tanggal Kompri
-tanggalSidang.textContent = '21 Juli 2023';
+tanggalSidang.textContent = '18 Juli 2023';
 
 // Teks Sidang
-teksSidang.textContent = 'Naaah pas sidang ini bener bener enjoy, karna kan kita udh lewatin sempro dan karna yg ngerjain skripsi itu diri sendiri jadinya pasti menguasai dan alhamdulillah nya sesuai harapan. ';
+teksSidang.textContent = 'Mendebarkan, tapi puas banget sama hasilnya';
 
 
 
