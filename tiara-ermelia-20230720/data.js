@@ -93,10 +93,10 @@ fotoSidang.forEach(function(element) {
 	element.style.backgroundSize = 'cover';
 });
 
-// Tanggal Kompri
+// Tanggal Sidang
 tanggalSidang.textContent = '20 Juli 2023';
 
-// Teks Sempro
+// Teks Sidang
 teksSidang.textContent = 'Beneran gaada panik sedikitpunn, Chill bangett sampe ngomong “udah gitu doang” hahaha';
 
 

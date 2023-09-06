@@ -65,7 +65,7 @@ fotoSempro.forEach(function(element) {
 tanggalSempro.textContent = '9 Juni 2023';
 
 // Teks Sempro
-teksSempro.textContent = 'Chill bangett sih, walaupun deg degan kebangun dari jam 3 pagi.. orang pertama dipanggil dari 11 orangg, tapi setelah itu gabut nungguin 10 orang lagi selesai.';
+teksSempro.textContent = 'Alhamdulillah bisa ngelewati 1 tahap';
 
 
 
@@ -78,9 +78,9 @@ fotoKompri.forEach(function(element) {
 });
 
 // Tanggal Kompri
-tanggalKompri.textContent = '10 Mei 2023';
+tanggalKompri.textContent = '14 Juli 2023';
 // Teks Kompri
-teksKompri.textContent = '';
+teksKompri.textContent = 'Alhamdulillah lulus langsung';
 
 
 
@@ -94,10 +94,10 @@ fotoSidang.forEach(function(element) {
 });
 
 // Tanggal Sidang
-tanggalSidang.textContent = '20 Juli 2023';
+tanggalSidang.textContent = '26 Juli 2023';
 
 // Teks Sempro
-teksSidang.textContent = 'Beneran gaada panik sedikitpunn, Chill bangett sampe ngomong “udah gitu doang” hahaha';
+teksSidang.textContent = 'Alhamdulillah uda S.Akun walaupun nangis nangis';
 
 
 
