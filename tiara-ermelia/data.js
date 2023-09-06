@@ -88,7 +88,7 @@ teksKompri.textContent = 'Fase fase kompri itu moment paling menegangkan dari pa
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/(tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia/tiara3.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
