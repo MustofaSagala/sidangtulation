@@ -43,20 +43,20 @@ prodi.textContent = 'Prodi Ekonomi Islam';
 
 // Foto Cover dan Header
 fotoCoverHeader.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20072023/tiara3.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Foto bingkai
-fotoBingkai.style.backgroundImage = 'url(../tiara-ermelia/tiaraa.jpeg)';
+fotoBingkai.style.backgroundImage = 'url(../tiara-ermelia-20072023/tiaraa.jpeg)';
 fotoBingkai.style.backgroundPosition = 'center';
 fotoBingkai.style.backgroundSize = 'cover';
 
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara2.jpeg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20072023/tiara2.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -72,7 +72,7 @@ teksSempro.textContent = 'Chill bangett sih, walaupun deg degan kebangun dari ja
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara1.jpeg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20072023/tiara1.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -88,7 +88,7 @@ teksKompri.textContent = 'Fase fase kompri itu moment paling menegangkan dari pa
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20072023/tiara3.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
