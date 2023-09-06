@@ -65,7 +65,7 @@ fotoSempro.forEach(function(element) {
 tanggalSempro.textContent = '25 Juli 2023';
 
 // Teks Sempro
-teksSempro.textContent = 'Chill bangett sih, walaupun deg degan kebangun dari jam 3 pagi.. orang pertama dipanggil dari 11 orangg, tapi setelah itu gabut nungguin 10 orang lagi selesai.';
+teksSempro.textContent = 'Pas sempro kemarin itu bener2 bikin deg degan parah karna kan itu ditanya tanyain kayak wawancara huuhu';
 
 
 
@@ -80,7 +80,7 @@ fotoKompri.forEach(function(element) {
 // Tanggal Kompri
 tanggalKompri.textContent = '25 Juli 2023';
 // Teks Kompri
-teksKompri.textContent = 'Fase fase kompri itu moment paling menegangkan dari pada semhas dan sidangg, sampe harus ngulang lagi perkara 1 mata kuliah :(';
+teksKompri.textContent = 'Kompri itu part paling nakutin dari semua rangkaian pencapaian gelar sarjana. Tapi alhamdulillah sudah berlalu hehe';
 
 
 
@@ -96,8 +96,8 @@ fotoSidang.forEach(function(element) {
 // Tanggal Kompri
 tanggalSidang.textContent = '25 Juli 2023';
 
-// Teks Sempro
-teksSidang.textContent = 'Beneran gaada panik sedikitpunn, Chill bangett sampe ngomong “udah gitu doang” hahaha';
+// Teks Sidang
+teksSidang.textContent = 'Naaah pas sidang ini bener bener enjoy, karna kan kita udh lewatin sempro dan karna yg ngerjain skripsi itu diri sendiri jadinya pasti menguasai dan alhamdulillah nya sesuai harapan. ';
 
 
 
