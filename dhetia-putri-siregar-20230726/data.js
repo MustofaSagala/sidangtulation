@@ -88,7 +88,7 @@ teksKompri.textContent = 'Alhamdulillah lulus langsung';
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../dhetia-putri-siregar-20230726/tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../dhetia-putri-siregar-20230726/tia2.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
