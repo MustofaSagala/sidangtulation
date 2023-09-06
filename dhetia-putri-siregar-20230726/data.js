@@ -43,44 +43,44 @@ prodi.textContent = 'Prodi Akuntansi Syariah';
 
 // Foto Cover dan Header
 fotoCoverHeader.forEach(function(element) {
-	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima0.jpg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara3.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Foto bingkai
-fotoBingkai.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima00.jpg)';
+fotoBingkai.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiaraa.jpeg)';
 fotoBingkai.style.backgroundPosition = 'center';
 fotoBingkai.style.backgroundSize = 'cover';
 
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima1.jpg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara2.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Tanggal Sempro
-tanggalSempro.textContent = '17 Maret 2023';
+tanggalSempro.textContent = '9 Juni 2023';
 
 // Teks Sempro
-teksSempro.textContent = 'Kirain semenegangkan itu eh ternyata biasa aja hehe';
+teksSempro.textContent = 'Chill bangett sih, walaupun deg degan kebangun dari jam 3 pagi.. orang pertama dipanggil dari 11 orangg, tapi setelah itu gabut nungguin 10 orang lagi selesai.';
 
 
 
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima2.jpg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara1.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Tanggal Kompri
-tanggalKompri.textContent = '31 Mei 2023';
+tanggalKompri.textContent = '10 Mei 2023';
 // Teks Kompri
-teksKompri.textContent = 'Pertanyaan diluar dugaan bmkg, apa yang dibaca apa yg ditanya hemm';
+teksKompri.textContent = '';
 
 
 
@@ -88,16 +88,16 @@ teksKompri.textContent = 'Pertanyaan diluar dugaan bmkg, apa yang dibaca apa yg 
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../ima-tri-wardani-20230718/ima0.jpg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia-20230720/tiara3.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
-// Tanggal Kompri
-tanggalSidang.textContent = '18 Juli 2023';
+// Tanggal Sidang
+tanggalSidang.textContent = '20 Juli 2023';
 
-// Teks Sidang
-teksSidang.textContent = 'Mendebarkan, tapi puas banget sama hasilnya';
+// Teks Sempro
+teksSidang.textContent = 'Beneran gaada panik sedikitpunn, Chill bangett sampe ngomong “udah gitu doang” hahaha';
 
 
 
