@@ -43,20 +43,20 @@ prodi.textContent = 'Prodi Akuntansi Syariah';
 
 // Foto Cover dan Header
 fotoCoverHeader.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../vidya-chalista/dita0.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Foto bingkai
-fotoBingkai.style.backgroundImage = 'url(../tiara-ermelia/tiaraa.jpeg)';
+fotoBingkai.style.backgroundImage = 'url(../vidya-chalista/dita5.jpg)';
 fotoBingkai.style.backgroundPosition = 'center';
 fotoBingkai.style.backgroundSize = 'cover';
 
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara1.jpeg)';
+	element.style.backgroundImage = 'url(../vidya-chalista/dita1.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -72,7 +72,7 @@ teksSempro.textContent = 'Pas sempro kemarin itu bener2 bikin deg degan parah ka
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara2.jpeg)';
+	element.style.backgroundImage = 'url(../vidya-chalista/dita2.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -88,7 +88,7 @@ teksKompri.textContent = 'Kompri itu part paling nakutin dari semua rangkaian pe
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara3.jpeg)';
+	element.style.backgroundImage = 'url(../vidya-chalista/dita3.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
