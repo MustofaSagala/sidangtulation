@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400&family=Great+Vibes&family=Quicksand:wght@400;500&display=swap");
+
+.btn-wedding {
+  font-weight: 600;
+  border: transparent;
+  border-radius: 30px;
+  background-color: #f5e2e4;
+}
+
+.btn-wedding:hover {
+  color: #fff;
+  background-color: #bf616b;
+}
+
+.cover {
+  z-index: 10000;
+  overflow: hidden;
+  background-color: #ecf0f1;
+}
+
+.cover,
+.cover .title {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.cover .title {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover .title h3 {
+  margin: 0;
+  font-size: 7rem;
+}
+
+.cover .title .btn {
+  font-weight: 600;
+  letter-spacing: -0.75px;
+}
+
+.cover .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cover:before {
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #ecf0f1;
+}
+
+.header,
+.header .title {
+  width: 100%;
+  height: 90vh;
+}
+.header h3{
+  font-size: 20px;
+}
+
+.header .title {
+  color: #fff;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .title h2 {
+  font-weight: 600;
+}
+
+.header .title h1 {
+  margin: 0;
+  font-size: 7rem;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header:before {
+  background: linear-gradient(180deg, #fff, transparent 0%, #000);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+}
+
+.story {
+  width: 100%;
+  padding: 4rem 0;
+  position: relative;
+  text-align: center;
+}
+.storyimg {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+
+.profile {
+  background-color: rgba(109, 148, 142, 0.2);
+  text-align: center;
+  padding: 10rem 0;
+}
+
+@media (max-width: 992px) {
+  .cover,
+  .header {
+    position: relative;
+  }
+
+  .cover .title,
+  .header .title {
+    z-index: 2;
+  }
+
+  .cover .title h3 {
+    font-size: 2.5rem;
+  }
+
+  .header .title h2{
+    font-size: 2.4rem;
+  }
+
+  .header .title h1 {
+    font-size: 3.5rem;
+  }
+
+  .cover .title p {
+    font-size: 0.75rem;
+    margin: 0 0 0.25rem;
+  }
+
+  .cover:before,
+  .header:before {
+    z-index: 1;
+  }
+
+  .cover .img,
+  .header img {
+    margin: auto;
+    height: 100%;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    position: absolute;
+  }
+
+  .profile {
+    padding: 1rem 0 0 0;
+  }
+
+  .profile .couples {
+    margin: 0 0 5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cover,
+  .header {
+    position: relative;
+  }
+
+  .cover .title,
+  .header .title {
+    z-index: 2;
+  }
+
+  .cover .title h3 {
+    font-size: 3rem;
+  }
+
+  .header .title h2{
+    font-size: 1.5rem;
+    margin: 0 0 0.25rem;
+  }
+  
+  .header .title h4 {
+    font-size: 18px;
+  }
+
+  .header .title h1 {
+    font-size: 3rem;
+  }
+
+  .cover .title p {
+    font-size: 0.75rem;
+    margin: 0 0 0.25rem;
+  }
+
+  .cover:before,
+  .header:before {
+    z-index: 1;
+  }
+
+  .cover .img,
+  .header img {
+    width: auto;
+    margin: auto;
+    height: 100%;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    position: absolute;
+  }
+}
+
+html,
+body {
+  background: #f7f7f7;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+}
+h3 {
+  font-family: "Quicksand", cursive;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 20px;
+}
+
+section {
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  section {
+    max-width: 70%;
+    background-color: #fff;
+  }
+}
+
+.cover:before {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    0deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+
+.container {
+  max-width: 800px !important;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0 20px;
+  background-color: #fff;
+}
+
+.couple-ring {
+  height: 280px;
+  position: relative;
+}
+
+.couple-ring::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: url(frame.png) top center no-repeat;
+  background-size: contain;
+}
+
+.bingkai{
+  margin-top: 20px;
+}
+.foto-bingkai {
+  width: 250px; /* Atur lebar sesuai kebutuhan */
+  height: 260px; /* Atur tinggi sesuai kebutuhan */
+}
+@media screen and (min-width: 768px) {
+  .foto-bingkai {
+    width: 250px; /* Atur lebar sesuai kebutuhan */
+    height: 260px; /* Atur tinggi sesuai kebutuhan */
+  }
+}
+
+.couple-ring img {
+  margin-top: 0;
+}
+
+#profile {
+  background: #fff url(bg.jpeg) no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+
+.text-story {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.border-green-600 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Untuk mengatur gambar agar berada di tengah secara horizontal dan vertical */
+
+.editorial {
+  display: block;
+  width: 100%;
+  height: 60px;
+  max-height: 60px;
+  margin: 0;
+  z-index: 1;
+  bottom: 0;
+  position: absolute;
+  left: 0px;
+  float: left;
+}
+
+.parallax1 > use {
+  animation: move-forever1 10s linear infinite;
+
+  &:nth-child(1) {
+    animation-delay: -2s;
+  }
+}
+
+.parallax2 > use {
+  animation: move-forever2 8s linear infinite;
+
+  &:nth-child(1) {
+    animation-delay: -2s;
+  }
+}
+
+.parallax3 > use {
+  animation: move-forever3 6s linear infinite;
+
+  &:nth-child(1) {
+    animation-delay: -2s;
+  }
+}
+
+.parallax4 > use {
+  animation: move-forever4 4s linear infinite;
+
+  &:nth-child(1) {
+    animation-delay: -2s;
+  }
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever3 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever4 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+.m-auto {
+  width: 100%;
+  height: 100%;
+}
+
+.parallax {
+  position: relative;
+  min-height: 400px;
+  color: #222;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(bg-gradient.png) repeat-x;
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: 0;
+}
+
+@media (max-width: 576px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}
+.quote-p {
+  padding: 0 0 4rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.titlehome {
+  margin-bottom: 40px;
+  font-size: 45px;
+}
+
+.titlestory {
+  font-size: 20px;
+  font-weight: 500;
+}
+[data-aos][data-aos][data-aos-delay="100"].aos-animate,
+body[data-aos-delay="100"] [data-aos].aos-animate {
+  transition-delay: 0.1s;
+}
+[data-aos^="zoom"][data-aos^="zoom"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+}
+
+x-5 {
+  padding: 0 1.8rem 0;
+}
+.titlehead {
+  padding: 0 1rem;
+}
+body.overclosed,
+.overclosed .cover {
+  position: fixed !important;
+  overflow: hidden;
+}
+.quote-color {
+  color: #fff;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.img-story{
+  border-radius: 15px;
+  padding: 9rem;
+}
+
+.col-12{
+  margin-top: 20px;
+}
