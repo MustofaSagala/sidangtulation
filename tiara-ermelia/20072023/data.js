@@ -56,7 +56,7 @@ fotoBingkai.style.backgroundSize = 'cover';
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara1.jpeg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia/tiara2.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -72,7 +72,7 @@ teksSempro.textContent = 'Chill bangett sih, walaupun deg degan kebangun dari ja
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../tiara-ermelia/tiara2.jpeg)';
+	element.style.backgroundImage = 'url(../tiara-ermelia/tiara1.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
