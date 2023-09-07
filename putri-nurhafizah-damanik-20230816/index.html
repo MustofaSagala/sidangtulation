@@ -17,8 +17,30 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../assets/style.css">
+    <style>
+      .loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.loading img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+    </style>
   </head>
   <body>
+    <div id="loading" class="loading">
+      <img src="loading.gif" alt="Loading...">
+  </div>
     <div class="cover">
       <div class="title text-center">
         <div data-aos="fade-up" data-aos-delay="200">
@@ -199,11 +221,10 @@
     <script src=https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js></script>
     <script src="../assets/script.js"></script>
     <script src="../putri-nurhafizah-damanik-20230816/data.js"></script>
-    <script defer>
-      // Menghapus gaya display yang disembunyikan (display: none)
+    <script>
       window.addEventListener('load', function () {
-          var cover = document.querySelector('.cover');
-          cover.style.display = 'block';
+          var loading = document.getElementById('loading');
+          loading.style.display = 'none'; // Menghilangkan elemen loading
       });
   </script>
   </body>
