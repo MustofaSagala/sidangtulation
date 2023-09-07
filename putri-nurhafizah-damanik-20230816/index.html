@@ -222,8 +222,8 @@
     <script src="../assets/script.js"></script>
     <script src="../putri-nurhafizah-damanik-20230816/data.js"></script>
     <script>
-      // Skrip JavaScript untuk menunggu 5 detik sebelum menampilkan konten
-      setTimeout(function () {
+      // Skrip JavaScript untuk menunggu hingga semua dokumen dan skrip dimuat
+      window.addEventListener('load', function () {
           var loading = document.getElementById('loading');
           var content = document.getElementById('content');
 
@@ -232,7 +232,7 @@
 
           // Menampilkan konten utama
           content.style.display = 'block';
-      }, 5000); // 5000 milidetik = 5 detik
+      });
   </script>
   </body>
 </html>
