@@ -73,3 +73,16 @@ var general = {
         document.addEventListener('selectstart', function(event) {
             event.preventDefault();
         });
+
+        
+
+        window.addEventListener('load', function () {
+          var loading = document.getElementById('loading');
+          var content = document.getElementById('content');
+
+          // Menghilangkan elemen loading
+          loading.style.display = 'none';
+
+          // Menampilkan konten utama
+          content.style.display = 'block';
+      });
