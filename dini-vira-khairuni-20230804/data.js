@@ -62,7 +62,7 @@ fotoSempro.forEach(function(element) {
 });
 
 // Tanggal Sempro
-tanggalSempro.textContent = '16 Maret 2023';
+tanggalSempro.textContent = '29 Mei 2023';
 
 // Teks Sempro
 teksSempro.textContent = 'Alhamdulillah';
@@ -78,7 +78,7 @@ fotoKompri.forEach(function(element) {
 });
 
 // Tanggal Kompri
-tanggalKompri.textContent = '14 April 2023';
+tanggalKompri.textContent = '25 Juli 2023';
 // Teks Kompri
 teksKompri.textContent = 'Luar biasa';
 
