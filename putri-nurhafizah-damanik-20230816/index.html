@@ -38,10 +38,10 @@
     </style>
   </head>
   <body>
-    <div id="loading" class="loading">
+    <div id="loading">
       <img src="loading.gif" alt="Loading...">
   </div>
-    <div class="cover">
+    <div class="cover" id="content" style="display: none;">
       <div class="title text-center">
         <div data-aos="fade-up" data-aos-delay="200">
           <h3 id="nama"></h3>
@@ -222,10 +222,17 @@
     <script src="../assets/script.js"></script>
     <script src="../putri-nurhafizah-damanik-20230816/data.js"></script>
     <script>
-      window.addEventListener('load', function () {
+      // Skrip JavaScript untuk menunggu 5 detik sebelum menampilkan konten
+      setTimeout(function () {
           var loading = document.getElementById('loading');
-          loading.style.display = 'none'; // Menghilangkan elemen loading
-      });
+          var content = document.getElementById('content');
+
+          // Menghilangkan elemen loading
+          loading.style.display = 'none';
+
+          // Menampilkan konten utama
+          content.style.display = 'block';
+      }, 5000); // 5000 milidetik = 5 detik
   </script>
   </body>
 </html>
