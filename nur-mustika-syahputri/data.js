@@ -62,10 +62,10 @@ fotoSempro.forEach(function(element) {
 });
 
 // Tanggal Sempro
-tanggalSempro.textContent = '29 Mei 2023';
+tanggalSempro.textContent = '11 Mei 2026';
 
 // Teks Sempro
-teksSempro.textContent = 'Alhamdulillah';
+teksSempro.textContent = 'Satu langkah kecil untuk memulai perjalanan yang panjang. Alhamdulillah, Sempro selesai. ';
 
 
 
@@ -78,9 +78,9 @@ fotoKompri.forEach(function(element) {
 });
 
 // Tanggal Kompri
-tanggalKompri.textContent = '25 Juli 2023';
+tanggalKompri.textContent = '30 Juli 2026';
 // Teks Kompri
-teksKompri.textContent = 'Apapun soalnya Ikhtiar solusinya😻';
+teksKompri.textContent = 'Mungkin bagimu ini hanya satu tahap yang harus dilewati, tapi bagi seseorang yang memperhatikan perjalananmu, melihatmu sampai di titik ini adalah sesuatu yang membahagiakan';
 
 
 
@@ -88,16 +88,16 @@ teksKompri.textContent = 'Apapun soalnya Ikhtiar solusinya😻';
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../putri-nurhafizah-damanik-20230816/pija0.jpg)';
+	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika0.jpg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Tanggal Sidang
-tanggalSidang.textContent = '4 Agustus 2023';
+tanggalSidang.textContent = '27 Agustus 2026';
 
 // Teks Sidang
-teksSidang.textContent = 'Berani memulai berani selesaikan 🤍';
+teksSidang.textContent = 'Dari Sempro, Kompri, hingga akhirnya Sidang. Satu per satu tahap sudah kamu lewati. Mungkin kamu tidak sadar, tapi ada seseorang yang ikut memperhatikan dan bangga melihatmu sampai sejauh ini. Selamat, Mustika. 🤍';
 
 
 
