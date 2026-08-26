@@ -43,20 +43,20 @@ prodi.textContent = 'Prodi Magister Akuntansi Syariah';
 
 // Foto Cover dan Header
 fotoCoverHeader.forEach(function(element) {
-	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika0.jpg)';
+	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika0.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
 
 // Foto bingkai
-fotoBingkai.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika0.jpg)';
+fotoBingkai.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika0.jpeg)';
 fotoBingkai.style.backgroundPosition = 'center';
 fotoBingkai.style.backgroundSize = 'cover';
 
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika1.jpg)';
+	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika1.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -72,7 +72,7 @@ teksSempro.textContent = 'Satu langkah kecil untuk memulai perjalanan yang panja
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika1.jpg)';
+	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika1.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -88,7 +88,7 @@ teksKompri.textContent = 'Mungkin bagimu ini hanya satu tahap yang harus dilewat
 
 // Foto Sidang
 fotoSidang.forEach(function(element) {
-	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika0.jpg)';
+	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika0.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
