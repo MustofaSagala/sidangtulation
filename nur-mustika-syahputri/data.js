@@ -65,7 +65,7 @@ fotoSempro.forEach(function(element) {
 tanggalSempro.textContent = '11 Mei 2026';
 
 // Teks Sempro
-teksSempro.textContent = 'Alhamdulillah, satu langkah telah dimulai. Semoga setiap prosesnya membawa kamu semakin dekat dengan apa yang kamu impikan.';
+teksSempro.textContent = 'Alhamdulillah, satu langkah awal dimulai. Semoga setiap prosesnya membawa kamu semakin dekat dengan apa yang kamu impikan.';
 
 
 
