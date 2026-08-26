@@ -97,7 +97,7 @@ fotoSidang.forEach(function(element) {
 tanggalSidang.textContent = '27 Agustus 2026';
 
 // Teks Sidang
-teksSidang.textContent = 'Dari Sempro, Semhas, hingga akhirnya Sidang. Satu per satu tahap sudah kamu lewati. Mungkin kamu tidak sadar, tapi ada seseorang yang ikut memperhatikan dan bangga melihatmu sampai sejauh ini. Selamat, Mustika. 🤍';
+teksSidang.textContent = 'Dari Sempro, Semhas, hingga akhirnya Sidang. Satu per satu tahap sudah kamu lewati. Selamat, Mustika. 🤍';
 
 
 
