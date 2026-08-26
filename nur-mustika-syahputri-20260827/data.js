@@ -18,7 +18,6 @@ var tanggalKompri = document.getElementById('tanggal-kompri');
 var tanggalSidang = document.getElementById('tanggal-sidang');
 
 
-
 // Program Studi
 sidangApa.forEach(function(element) {
 	element.textContent = "Selamat Sidang Munaqasyah";
