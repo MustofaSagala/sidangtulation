@@ -64,7 +64,7 @@ fotoSempro.forEach(function(element) {
 tanggalSempro.textContent = '11 Mei 2026';
 
 // Teks Sempro
-teksSempro.textContent = 'Alhamdulillah, satu langkah awal dimulai. Semoga setiap prosesnya membawa kamu semakin dekat dengan apa yang kamu impikan.';
+teksSempro.textContent = 'Alhamdulillah, langkah awal akhirnya dimulai. Sempat terpontal-panting mengerjakan proposal karena melihat teman-teman sudah mulai duluan. Masa kamu mau kalah? 😆';
 
 
 
@@ -79,7 +79,7 @@ fotoKompri.forEach(function(element) {
 // Tanggal Kompri
 tanggalKompri.textContent = '30 Juli 2026';
 // Teks Kompri
-teksKompri.textContent = 'Walaupun bikin jantungan akhirnya selesai juga. Satu tahap lagi berhasil kamu lewati.';
+teksKompri.textContent = 'Mencari dan menguji data sampai menguras pikiran dan jiwa raga. Walaupun sempat bikin jantungan, Alhamdulillah akhirnya selesai juga! 😮‍💨';
 
 
 
@@ -96,7 +96,7 @@ fotoSidang.forEach(function(element) {
 tanggalSidang.textContent = '27 Agustus 2026';
 
 // Teks Sidang
-teksSidang.textContent = 'Dari Sempro, Semhas, hingga akhirnya Sidang. Satu per satu tahap sudah kamu lewati. Selamat, Mustika. 🤍';
+teksSidang.textContent = 'Dari Sempro, Semhas, hingga akhirnya Sidang. Satu per satu tahap sudah kamu lewati. Selamat, Mustika. Akhirnya sampai juga di titik ini. 🤍';
 
 
 
