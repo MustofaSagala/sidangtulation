@@ -19,9 +19,55 @@
     <link rel="stylesheet" href="../assets/style.css">    
   </head>
   <body>
+  <!-- ========================================
+       COUNTDOWN
+  ========================================= -->
+
+  <div id="countdown-page">
+
+    <div class="countdown-box">
+
+      <h1>✨ Ada sesuatu untukmu</h1>
+
+      <p>
+        Halaman ini akan segera dibuka.
+      </p>
+
+      <div class="countdown-wrapper">
+
+        <div class="countdown-item">
+          <span id="days">00</span>
+          <small>Hari</small>
+        </div>
+
+        <div class="countdown-item">
+          <span id="hours">00</span>
+          <small>Jam</small>
+        </div>
+
+        <div class="countdown-item">
+          <span id="minutes">00</span>
+          <small>Menit</small>
+        </div>
+
+        <div class="countdown-item">
+          <span id="seconds">00</span>
+          <small>Detik</small>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- LOADING WEBSITE LAMA -->
   <div id="loading">
     <img src="../assets/loading.gif" alt="Loading...">
   </div>
+  
+    
     <div class="cover" id="content" style="display: none;">
       <div class="title text-center">
         <div data-aos="fade-up" data-aos-delay="200">
@@ -205,7 +251,131 @@
     <script src=https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.3/simple-lightbox.min.js></script>
     <script src=https://unpkg.com/aos@2.3.1/dist/aos.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js></script>
+ 
+
     <script src="../assets/script.js"></script>
-    <script src="../nur-mustika-syahputri/data.js"></script>
-  </body>
+<script src="../nur-mustika-syahputri/data.js"></script>
+
+
+<script>
+  /*
+  ============================================
+  COUNTDOWN PEMBUKAAN WEBSITE
+
+  27 AGUSTUS 2026
+  PUKUL 22:00 WIB
+
+  WIB = UTC +07:00
+  ============================================
+  */
+
+  const targetDate = new Date("2026-08-26T23:39:00+07:00");
+
+  const countdownPage =
+    document.getElementById("countdown-page");
+
+  const daysElement =
+    document.getElementById("days");
+
+  const hoursElement =
+    document.getElementById("hours");
+
+  const minutesElement =
+    document.getElementById("minutes");
+
+  const secondsElement =
+    document.getElementById("seconds");
+
+
+  function updateCountdown() {
+
+    const now = new Date();
+
+    const distance =
+      targetDate.getTime() - now.getTime();
+
+
+    /*
+    ============================================
+    JIKA SUDAH 27 AGUSTUS 2026
+    PUKUL 22:00 WIB ATAU LEBIH
+    ============================================
+    */
+
+    if (distance <= 0) {
+
+      /*
+      Hilangkan countdown.
+      Setelah ini website kembali normal
+      seperti sebelum countdown ditambahkan.
+      */
+
+      countdownPage.remove();
+
+      return;
+    }
+
+
+    /*
+    ============================================
+    HITUNG SISA WAKTU
+    ============================================
+    */
+
+    const days = Math.floor(
+      distance / (1000 * 60 * 60 * 24)
+    );
+
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24))
+      / (1000 * 60 * 60)
+    );
+
+    const minutes = Math.floor(
+      (distance % (1000 * 60 * 60))
+      / (1000 * 60)
+    );
+
+    const seconds = Math.floor(
+      (distance % (1000 * 60))
+      / 1000
+    );
+
+
+    /*
+    ============================================
+    TAMPILKAN
+    ============================================
+    */
+
+    daysElement.textContent =
+      String(days).padStart(2, "0");
+
+    hoursElement.textContent =
+      String(hours).padStart(2, "0");
+
+    minutesElement.textContent =
+      String(minutes).padStart(2, "0");
+
+    secondsElement.textContent =
+      String(seconds).padStart(2, "0");
+
+  }
+
+
+  /*
+  Jalankan langsung saat halaman dibuka
+  */
+
+  updateCountdown();
+
+
+  /*
+  Update setiap 1 detik
+  */
+
+  setInterval(updateCountdown, 1000);
+</script>
+
+</body>
 </html>
