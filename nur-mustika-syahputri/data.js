@@ -34,7 +34,7 @@ namaLengkap.forEach(function(element) {
 
 // Nama Gelar
 namaGelar.forEach(function(element) {
-	element.textContent = "M.Akun";
+	element.textContent = "S.M, M.Akun";
 });
 
 // Program Studi
