@@ -56,7 +56,7 @@ fotoBingkai.style.backgroundSize = 'cover';
 
 // Foto Sempro
 fotoSempro.forEach(function(element) {
-	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika1.jpeg)';
+	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika2.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
@@ -72,7 +72,7 @@ teksSempro.textContent = 'Alhamdulillah, satu langkah telah dimulai. Semoga seti
 
 // Foto Kompri
 fotoKompri.forEach(function(element) {
-	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika2.jpeg)';
+	element.style.backgroundImage = 'url(../nur-mustika-syahputri/mustika1.jpeg)';
 	element.style.backgroundPosition = 'center';
 	element.style.backgroundSize = 'cover';
 });
