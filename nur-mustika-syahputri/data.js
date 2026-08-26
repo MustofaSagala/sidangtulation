@@ -20,7 +20,7 @@ var tanggalSidang = document.getElementById('tanggal-sidang');
 
 // Program Studi
 sidangApa.forEach(function(element) {
-	element.textContent = "Selamat Sidang Munaqasyah";
+	element.textContent = "Selamat Sidang Tesis";
 });
 
 // Nama Panggilan
