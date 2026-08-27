@@ -19,7 +19,7 @@
         }
 
         /* =========================
-           HALAMAN COUNTDOWN
+           JANGAN KEPO
         ========================== */
 
         #countdown-page {
@@ -68,9 +68,7 @@
         }
 
 
-        /* =========================
-           HALAMAN UCAPAN
-        ========================== */
+      
 
         #main-content {
             display: none;
@@ -94,10 +92,7 @@
 <body>
 
 
-    <!-- =========================
-         COUNTDOWN
-    ========================== -->
-
+  
     <section id="countdown-page">
 
         <div class="countdown-box">
@@ -138,9 +133,7 @@
 
 
 
-    <!-- =========================
-         HALAMAN UCAPAN ASLI
-    ========================== -->
+  
 
     <main id="main-content">
 
@@ -161,14 +154,7 @@
 
     <script>
 
-        /*
-        ============================================
-        WAKTU PEMBUKAAN
-        27 AGUSTUS 2026 - 22:00 WIB
-
-        WIB = UTC + 7
-        ============================================
-        */
+      
 
         const targetDate = new Date("2028-12-27T23:59:00+07:00");
 
@@ -190,16 +176,7 @@
             const distance = targetDate - now;
 
 
-            /*
-            ============================================
-            JIKA WAKTU SUDAH TIBA
-
-            Countdown hilang.
-
-            Halaman ucapan tampil normal dan
-            akan tetap normal seterusnya.
-            ============================================
-            */
+          
 
             if (distance <= 0) {
 
@@ -212,11 +189,7 @@
             }
 
 
-            /*
-            ============================================
-            HITUNG WAKTU
-            ============================================
-            */
+           
 
             const days = Math.floor(
                 distance / (1000 * 60 * 60 * 24)
@@ -259,16 +232,12 @@
         }
 
 
-        /*
-        Jalankan langsung saat halaman dibuka
-        */
+       
 
         updateCountdown();
 
 
-        /*
-        Update setiap 1 detik
-        */
+  
 
         setInterval(updateCountdown, 1000);
 
