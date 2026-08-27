@@ -1,381 +1,278 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset=UTF-8>
-    <meta name=viewport content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name=language content="Indonesia">
-    <meta name=twitter:card content="summary">
-    <meta property="og:description" content="Selamat Sidang">
+<head>
+    <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
-    <title></title>
-    <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
-    <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju-2.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.3/simplelightbox.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="../assets/style.css">    
-  </head>
-  <body>
-  <!-- ========================================
-       COUNTDOWN
-  ========================================= -->
+    <meta property="og:description" content="Selamat Sidang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <div id="countdown-page">
+    <title>Selamat Sidang Tesis Nur Mustika Syahputri</title>
 
-    <div class="countdown-box">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-      <h1>🙂</h1>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
-      <p>
-        ...
-      </p>
+        /* =========================
+           HALAMAN COUNTDOWN
+        ========================== */
 
-      <div class="countdown-wrapper">
+        #countdown-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
 
-        <div class="countdown-item">
-          <span id="days">00</span>
-          <small>Hari</small>
-        </div>
+        .countdown-box {
+            max-width: 600px;
+        }
 
-        <div class="countdown-item">
-          <span id="hours">00</span>
-          <small>Jam</small>
-        </div>
+        .countdown-box h1 {
+            margin-bottom: 10px;
+        }
 
-        <div class="countdown-item">
-          <span id="minutes">00</span>
-          <small>Menit</small>
-        </div>
+        .countdown-box p {
+            color: #666;
+        }
 
-        <div class="countdown-item">
-          <span id="seconds">00</span>
-          <small>Detik</small>
-        </div>
+        #countdown {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+        }
 
-      </div>
+        .time-box {
+            min-width: 70px;
+            padding: 15px 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
 
-    </div>
+        .time-box span {
+            display: block;
+            font-size: 28px;
+            font-weight: bold;
+        }
 
-  </div>
+        .time-box small {
+            color: #777;
+        }
 
 
-  <!-- LOADING WEBSITE LAMA -->
-  <div id="loading">
-    <img src="../assets/loading.gif" alt="Loading...">
-  </div>
-  
-    
-    <div class="cover" id="content" style="display: none;">
-      <div class="title text-center">
-        <div data-aos="fade-up" data-aos-delay="200">
-          <h3 id="nama"></h3>
-          <br>
-          <h4>- Ada sesuatu untukmu -</h4>
-          <br>
-          <button type=button class="btn btn-lg btn-light btn-wedding open_invitation px-5">Buka</button>
-        </div>
-      </div>
-      <img class="img foto-cover-header">
-    </div>
-    <section class="header" id="home">
-      <div class="title text-center">
-        <div data-aos="fade-up">
-          <h3 class="sidang-apa"></h3>
-          <h1 class="nama-lengkap"></h1>
-        </div>
-      </div>
-      <img class="img foto-cover-header">
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none" class="editorial">
-        <defs>
-          <path id="gentle-wave" d="M-160 44c30 0
-      58-18 88-18s
-      58 18 88 18
-      58-18 88-18
-      58 18 88 18
-      v44h-352z"></path>
-        </defs>
-        <g class="parallax1">
-          <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000"></use>
-        </g>
-        <g class="parallax2">
-          <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222"></use>
-        </g>
-        <g class="parallax3">
-          <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333"></use>
-        </g>
-        <g class="parallax4">
-          <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"></use>
-        </g>
-      </svg>
-    </section>
-    <section id="profile" class="profile relative">
-      <div class="container">
-        <br>
-        <img src="../assets/flower.png" style="max-height:40px;">
-        <h1 class="title text-center sidang-apa"></h1>
-        <div class="bingkai">
-          <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="000" class="couples aos-init aos-animate">
-            <div class="couple-ring">
-              <img class="foto-bingkai" id="foto-bingkai">
+        /* =========================
+           HALAMAN UCAPAN
+        ========================== */
+
+        #main-content {
+            display: none;
+        }
+
+        .ucapan {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .ucapan h1 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- =========================
+         COUNTDOWN
+    ========================== -->
+
+    <section id="countdown-page">
+
+        <div class="countdown-box">
+
+            <h1>🙂</h1>
+
+            <p>...
+            </p>
+
+
+            <div id="countdown">
+
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Hari</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Jam</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Menit</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Detik</small>
+                </div>
+
             </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         HALAMAN UCAPAN ASLI
+    ========================== -->
+
+    <main id="main-content">
+
+        <section class="ucapan">
+
             <div>
-              <div class="col-12">
-                <h3 class="nama-lengkap-dan-gelar gelar"></h3>
-                </h3>
-                <p class="text-story" id="prodi"></p>
-                <p>Dari Sempro yang dimulai dengan segala kepanikan mengejar ketertinggalan, hingga Semhas yang menguras pikiran dan tenaga, akhirnya kamu sampai juga di tahap terakhir. Satu per satu proses yang dulu terasa panjang, kini sudah berhasil kamu lewati.</p>
 
-<p>Mungkin selama menjalaninya ada saat-saat kamu lelah, bingung, bahkan sempat bertanya kapan semuanya akan selesai. Tapi ternyata kamu mampu bertahan. Dan hari ini, semua proses itu membawamu sampai di titik yang dulu mungkin hanya bisa kamu bayangkan.</p>
+                <h1>🙂</h1>
+                
 
-<p>Entah kenapa, melihatmu sampai sejauh ini juga membuatku ikut bahagia. Mungkin kamu tidak pernah menyadarinya, tapi di antara semua orang yang mengucapkan selamat hari ini, ada seseorang yang sejak awal diam-diam ikut memperhatikan, mendoakan, dan menantikan hari keberhasilanmu. 🤍</p>
-
-<p class="quote">"Terkadang kita tidak sadar sudah berjalan sejauh apa, sampai akhirnya kita menoleh ke belakang."</p>
-
-<p>Selamat, Mustikaa Cantiiik. Akhirnya sampai juga di titik ini. Terima kasih sudah bertahan dan menyelesaikan perjalananmu. Semoga setelah ini, apa pun langkah yang kamu pilih, selalu ada hal-hal baik yang menantimu. 🤍</p>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="story" class="story">
-      <div class="container">
-        <div>
-          <img src="../assets/flower.png" style="max-height:40px;">
-          <h1 class="title text-center">Our Story</h1>
-        </div>
-        <div class="flex space-y-2 justify-center text-center flex-col">
-          <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="000" class="w-full p-2">
-            <div class="flex flex-col md:flex-row md:space-x-5">
-              <div class="w-full md:w-1/3 mt-2">
-                <img class="img-story foto-sempro">
-              </div>
-              <div class="w-full md:text-left">
-                <h3 class="text-story">Seminar Proposal</h3>
-                <p class="my-2 justify-center md:justify-start space-x-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24px" height="24px" class="inline-flex w-4">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" ></path>
-                  </svg > <span id="tanggal-sempro"></span>
-                </p>
-                <p id="teks-sempro"></p>
-              </div>
-            </div>
-          </div>  
-          <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" class="w-full p-2">
-            <div class="flex flex-col md:flex-row md:space-x-5">
-              <div class="w-full md:w-1/3 mt-2">
-                <img class="img-story foto-kompri">
-              </div>
-              <div class="w-full md:text-left">
-                <h3 class="text-story">Seminar Hasil</h3>
-                <p class="my-2 justify-center md:justify-start space-x-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24px" height="24px" class="inline-flex w-4">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                  </svg> <span id="tanggal-kompri"></span>
-                </p>
-                <p id="teks-kompri"></p>
-              </div>
-            </div>
-          </div>                  
-          <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200" class="w-full p-2">
-            <div class="flex flex-col md:flex-row md:space-x-5">
-              <div class="w-full md:w-1/3 mt-2">
-                <img class="img-story foto-sidang">
-              </div>
-              <div class="w-full md:text-left">
-                <h3 class="text-story">Sidang Meja Hijau</h3>
-                <p class="my-2 justify-center md:justify-start space-x-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24px" height="24px" class="inline-flex w-4">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                  </svg> <span id="tanggal-sidang"><span>
-                </p>
-                <p id="teks-sidang"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    
-    <section class="parallax" style="background: url('../assets/bg-footer.jpg') center center / cover no-repeat;">
-      <div class="container my-10 sm:my-40 relative">
-        <div class="my-10">
-          <img src="../assets/flower.png" style="max-height:40px;">
-          <h1 class="title text-center">Our Quote</h1>
-        </div>
-        <div class="w-full flex flex-col p-2 justify-center items-start">
-          <div class="w-full">
-            <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="00" class="aos-init aos-animate">
-              <p class="mt-2">Barangsiapa tidak mau merasakan pahitnya belajar, ia akan merasakan hinanya kebodohan sepanjang hidupnya</p>
-              <h3 class="text-2xl mt-3 font-bold">Imam Syafi'i</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none" class="editorial">
-        <defs>
-          <path id="gentle-wave" d="M-160 44c30 0
-      58-18 88-18s
-      58 18 88 18
-      58-18 88-18
-      58 18 88 18
-      v44h-352z"></path>
-        </defs>
-        <g class="parallax1">
-          <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000"></use>
-        </g>
-        <g class="parallax2">
-          <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222"></use>
-        </g>
-        <g class="parallax3">
-          <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333"></use>
-        </g>
-        <g class="parallax4">
-          <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"></use>
-        </g>
-      </svg>
-    </section>
-    <section style="width: 100%;">
-      <footer>
-        <div class="container">
-          <small>Selamat Sidang by MustofaSagala</small>
-        </div>
-      </footer>
-    </section>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.3/simple-lightbox.min.js></script>
-    <script src=https://unpkg.com/aos@2.3.1/dist/aos.js></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js></script>
- 
 
-    <script src="../assets/script.js"></script>
-<script src="../nur-mustika-syahputri/data.js"></script>
+        </section>
+
+    </main>
 
 
-<script>
-  /*
-  ============================================
-  COUNTDOWN PEMBUKAAN WEBSITE
 
-  27 AGUSTUS 2026
-  PUKUL 22:00 WIB
+    <script>
 
-  WIB = UTC +07:00
-  ============================================
-  */
+        /*
+        ============================================
+        WAKTU PEMBUKAAN
+        27 AGUSTUS 2026 - 22:00 WIB
 
-  const targetDate = new Date("2028-12-30T23:59:00+07:00");
+        WIB = UTC + 7
+        ============================================
+        */
 
-  const countdownPage =
-    document.getElementById("countdown-page");
-
-  const daysElement =
-    document.getElementById("days");
-
-  const hoursElement =
-    document.getElementById("hours");
-
-  const minutesElement =
-    document.getElementById("minutes");
-
-  const secondsElement =
-    document.getElementById("seconds");
+        const targetDate = new Date("2028-12-27T23:59:00+07:00");
 
 
-  function updateCountdown() {
-
-    const now = new Date();
-
-    const distance =
-      targetDate.getTime() - now.getTime();
+        const countdownPage = document.getElementById("countdown-page");
+        const mainContent = document.getElementById("main-content");
 
 
-    /*
-    ============================================
-    JIKA SUDAH 27 AGUSTUS 2026
-    PUKUL 22:00 WIB ATAU LEBIH
-    ============================================
-    */
-
-    if (distance <= 0) {
-
-      /*
-      Hilangkan countdown.
-      Setelah ini website kembali normal
-      seperti sebelum countdown ditambahkan.
-      */
-
-      countdownPage.remove();
-
-      return;
-    }
+        const daysElement = document.getElementById("days");
+        const hoursElement = document.getElementById("hours");
+        const minutesElement = document.getElementById("minutes");
+        const secondsElement = document.getElementById("seconds");
 
 
-    /*
-    ============================================
-    HITUNG SISA WAKTU
-    ============================================
-    */
+        function updateCountdown() {
 
-    const days = Math.floor(
-      distance / (1000 * 60 * 60 * 24)
-    );
+            const now = new Date();
 
-    const hours = Math.floor(
-      (distance % (1000 * 60 * 60 * 24))
-      / (1000 * 60 * 60)
-    );
-
-    const minutes = Math.floor(
-      (distance % (1000 * 60 * 60))
-      / (1000 * 60)
-    );
-
-    const seconds = Math.floor(
-      (distance % (1000 * 60))
-      / 1000
-    );
+            const distance = targetDate - now;
 
 
-    /*
-    ============================================
-    TAMPILKAN
-    ============================================
-    */
+            /*
+            ============================================
+            JIKA WAKTU SUDAH TIBA
 
-    daysElement.textContent =
-      String(days).padStart(2, "0");
+            Countdown hilang.
 
-    hoursElement.textContent =
-      String(hours).padStart(2, "0");
+            Halaman ucapan tampil normal dan
+            akan tetap normal seterusnya.
+            ============================================
+            */
 
-    minutesElement.textContent =
-      String(minutes).padStart(2, "0");
+            if (distance <= 0) {
 
-    secondsElement.textContent =
-      String(seconds).padStart(2, "0");
+                countdownPage.style.display = "none";
 
-  }
+                mainContent.style.display = "block";
 
+                return;
 
-  /*
-  Jalankan langsung saat halaman dibuka
-  */
-
-  updateCountdown();
+            }
 
 
-  /*
-  Update setiap 1 detik
-  */
+            /*
+            ============================================
+            HITUNG WAKTU
+            ============================================
+            */
 
-  setInterval(updateCountdown, 1000);
-</script>
+            const days = Math.floor(
+                distance / (1000 * 60 * 60 * 24)
+            );
+
+            const hours = Math.floor(
+                (distance % (1000 * 60 * 60 * 24))
+                / (1000 * 60 * 60)
+            );
+
+            const minutes = Math.floor(
+                (distance % (1000 * 60 * 60))
+                / (1000 * 60)
+            );
+
+            const seconds = Math.floor(
+                (distance % (1000 * 60))
+                / 1000
+            );
+
+
+            /*
+            ============================================
+            TAMPILKAN COUNTDOWN
+            ============================================
+            */
+
+            daysElement.textContent =
+                String(days).padStart(2, "0");
+
+            hoursElement.textContent =
+                String(hours).padStart(2, "0");
+
+            minutesElement.textContent =
+                String(minutes).padStart(2, "0");
+
+            secondsElement.textContent =
+                String(seconds).padStart(2, "0");
+
+        }
+
+
+        /*
+        Jalankan langsung saat halaman dibuka
+        */
+
+        updateCountdown();
+
+
+        /*
+        Update setiap 1 detik
+        */
+
+        setInterval(updateCountdown, 1000);
+
+    </script>
 
 </body>
 </html>
